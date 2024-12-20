@@ -38,7 +38,7 @@ function App() {
       {/* Información */}
       <section id="about" className="section about">
         <h1>Estación meteorológica personal</h1>
-        <p>Este proyecto mide la temperatura, humedad y sensación térmica, ¡explora lo que hemos logrado!</p>
+        <p>Este proyecto mide la temperatura, humedad y sensación térmica, este proyecto es ideal para aquellos que quieren llevar consigo el clima a tiempo real, ideal para deportistas! y algun que otro aficionado a las plantas con su inverndero. ¡explora lo que hemos logrado!</p>
         <img src={projectImg} alt="Imagen del proyecto" className="about-image" />
       </section>
 
