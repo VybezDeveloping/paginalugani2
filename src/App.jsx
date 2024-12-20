@@ -9,8 +9,8 @@ import logoImg from './assets/logo.png';
 
 function App() {
   const [comments, setComments] = useState([
-    "¡Me encanta el proyecto! La interfaz es muy intuitiva y fácil de usar.",
-    "Este es un proyecto increíble. La información es precisa y útil. ¡Felicidades!"
+    "¡Excelente proyecto! Estoy impresionado por la calidad.",
+    "Me encanta el diseño y la funcionalidad. ¡Sigan así!"
   ]);
   const [newComment, setNewComment] = useState('');
 
@@ -38,7 +38,7 @@ function App() {
       {/* Información */}
       <section id="about" className="section about">
         <h1>Estación meteorológica personal</h1>
-        <p>Este proyecto mide la temperatura, humedad y sensación térmica,este proyecto es ideal para aquellos quienes quieren llevar el control sobre el clima en todo momento, tales como deportistas, o algun apasionado por las plantas en su invernadero personal.</p>
+        <p>Este proyecto mide la temperatura, humedad y sensación térmica, ¡explora lo que hemos logrado!</p>
         <img src={projectImg} alt="Imagen del proyecto" className="about-image" />
       </section>
 

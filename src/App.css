@@ -9,8 +9,8 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;  
-  background-color: #8A6DFF;  
+  font-family: 'Roboto', sans-serif;
+  background-color: #8A6DFF; /* Color lila Fiat 422 */
   color: #333;
   padding-top: 60px;
 }
@@ -60,21 +60,22 @@ html, body {
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
-  background-color: #ffffff; 
-  border-radius: 10px;  
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
   color: #2c3e50;
   margin-bottom: 1rem;
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
 }
 
 p {
   margin-bottom: 1rem;
   line-height: 1.6;
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
+}
 
 /* Imagen del proyecto */
 .about-image {
@@ -88,9 +89,10 @@ p {
 /* Integrantes */
 .team-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; /* Alinea las imágenes en fila */
   gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .member {
@@ -98,9 +100,9 @@ p {
 }
 
 .member img {
-  width: 120px;
+  width: 120px; /* Ajusta el tamaño de las imágenes */
   height: 120px;
-  border-radius: 50%;
+  border-radius: 50%; /* Hace que las imágenes sean circulares */
   margin-bottom: 0.5rem;
   border: 3px solid #34495e;
 }
@@ -117,7 +119,7 @@ textarea {
   height: 100px;
   margin: 1rem auto;
   padding: 1rem;
-  font-size: 1.1rem;  
+  font-size: 1.1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   resize: none;
@@ -154,7 +156,7 @@ button:hover {
   padding: 2rem;
   background-color: #2c3e50;
   color: #ecf0f1;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
 }
 
 .footer p {
@@ -194,5 +196,4 @@ button:hover {
   .section {
     padding: 80px 20px 50px;
   }
-}
 }
